@@ -1,0 +1,42 @@
+body{
+    background-image:url(bg.avif);
+}
+.search{
+    text-align: center;
+}
+.search input{
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.body{
+    position: fixed;
+    width: 50%;
+    max-width: 550px;
+    background:transparent;
+    margin-top: 1%;
+    margin-left: 31%;
+    padding-top: 1px;
+    text-align: center;
+  }
+.weather-icon{
+    width: 100px;
+    margin-top: 30px;
+}
+.display h1{
+    font-size: 20px;
+    font-weight: 10;
+}
+.display h2{
+    font-size: 17px;
+    font-weight: 70;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px;
+    margin-top: 45px;
+}
+.col{
+    font-size: 20px;
+}
